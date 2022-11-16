@@ -1,0 +1,11 @@
+   0 whoami
+   1 pwd
+   2 cd /home
+   3 ls
+   4 date > textfile.txt
+   5 df / -h >> textfile.txt
+   6 history | tail -5 >> textfile.txt
+   7 cat /proc/cpuinfo | grep "vendor_id" >> textfile.txt
+   8 vi textfile.txt
+   9 ps -ef | tail +2 | wc -l >> textfile.txt
+  10 history > history_161122.txt
